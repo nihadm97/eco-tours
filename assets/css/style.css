@@ -21,7 +21,7 @@
    */
 
   --battleship-gray: hsl(0, 0%, 53%);
-  --viridian-green: hsl(180, 98%, 31%);
+  --viridian-green: #757619;
   --silver-chalice: hsl(0, 0%, 69%);
   --mikado-yellow: hsl(47, 98%, 50%);
   --granite-gray: hsl(0, 0%, 40%);
@@ -131,7 +131,7 @@ html {
 }
 
 body {
-  background: lightblue;
+  background: #f0cc69;
   font-size: 1.6rem;
 }
 
@@ -193,7 +193,7 @@ body {
 
 .section-subtitle {
   font-family: var(--ff-comforter-brush);
-  color: var(--mikado-yellow);
+  color: #FF7D00;
   font-size: var(--fs-3);
 }
 
@@ -203,7 +203,7 @@ body {
     }
   }
   
-.w-100 { width: 100%; }
+.w-100 { width: 650px; }
 
 .h2 {
   color: var(--jet);
@@ -592,7 +592,7 @@ body {
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--oxford-blue);
+  background-color: #757619;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
